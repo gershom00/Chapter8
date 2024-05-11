@@ -1,0 +1,61 @@
+/*
+Author: Gershom Meza
+Date: 5/8/2024
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rule for body */
+body {
+background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+width: 80%;
+margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+font-size: .70em;
+text-align: center;
+}
+
+/* Style rules for the table */
+table {
+	width: 80%;
+	margin: 0 auto;
+	border: 3px solid #71881b;
+	border-collapse: collapse;
+	margin-top: 2%;
+}
+
+/* Style rules for table header, rows, and cells */
+th, td {
+	padding: 2%;
+	border: 1px solid #7188bb;
+}
+
+/* Style rule for caption */
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+/* Style rule for table data cells */
+td {
+	text-align: center;
+}
+
+/* Style rule for odd rows */
+tr:nth-child(odd) {
+	background-color: #d3e788;
+}

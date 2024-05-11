@@ -1,0 +1,39 @@
+/*
+Author: Gershom meza
+Date: 5/8/2024
+*/
+
+/* Set body background color */
+body {
+  background-color: #ffe5dc;
+  font-family: sans-serif; /* Apply sans-serif font to the page */
+}
+
+/* Style rule for the table */
+table {
+  border: 3px solid #fd4d0c; /* Set table border color */
+  box-shadow: 0 0 10px #792101; /* Apply box shadow to the table */
+  width: 100%;
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Style rule for table header cells */
+th {
+  border: 1px solid #a22c02; /* Set table data border color */
+  background-color: #fd4d0c; /* Set background color for table header cells */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style rule for table data cells */
+td {
+  border: 1px solid #a22c02; /* Set table data border color */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style rule for odd rows background color */
+tbody tr:nth-child(odd) {
+  background-color: #fe9772; /* Set background color for odd rows */
+}
